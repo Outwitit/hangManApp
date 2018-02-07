@@ -4,3 +4,14 @@
 
 var phrase = "reach for the sky";
 var phraseArray = ['r','e','a','c','h','f','o','t','s','k','y']
+
+
+// When page loads
+var ready = prompt("Ready to play?");
+if(ready == true){
+
+} else {
+	alert("Don't be a weenie. It's game time.");
+}
+
+// 
