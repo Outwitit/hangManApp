@@ -1,0 +1,109 @@
+body{
+	background-color: black;
+}
+
+.headerText{
+	text-align: center;
+	font-size: 100px;
+	color: pink;
+	font-family: 'Rye', cursive;
+}
+
+.subText{
+	text-align: center;
+	font-size: 60px;
+	color: lightblue;
+	font-family: 'Rock Salt', cursive;
+	transform: rotate(-15deg);
+	margin-top: -30px;
+	text-decoration: underline;
+	 text-shadow: 2px 4px limegreen;
+}
+.container{
+	border-top: 10px dotted white;
+	border-left: 10px dotted white;
+	border-right: 10px dotted white;
+	height: 450px;
+	width: 1000px;
+	background-color: black;
+	margin-top: 100px;
+
+}
+
+
+
+
+.boardGame{
+	height: 40%;
+	width: 25%;
+	margin-left: 120px;
+	margin-top: 40px;
+
+
+}
+
+.rowLeft{
+	border-left: 10px dotted white;
+	border-right: 10px dotted white;
+}
+
+.rowRight{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Architects Daughter', cursive;
+	float: right;
+	border-left: 10px dotted white;
+		
+}
+
+.dashes{
+	font-size: 20px;
+}
+
+hr{
+	background-color: white;
+	width: 50%;
+}
+
+.pressAnyKey{
+	padding-top: 0;
+
+}
+ .pressAnyKey{
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        50% { color: red; }
+        25% { color: green; }
+        50% { color: yellow; }
+    }
+    @-moz-keyframes color-change {
+       0% { color: red; }
+        50% { color: blue; }
+        25% { color: red; }
+        50% { color: green; }
+        50% { color: yellow; }
+    }
+ 
+    @-o-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        25% { color: red; }
+        50% { color: green; }
+        50% { color: yellow; }
+    }
+    @keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        25% { color: red; }
+        50% { color: green; }
+        50% { color: yellow; }
+    }
