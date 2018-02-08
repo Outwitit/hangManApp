@@ -8,9 +8,8 @@ window.onload = function(){
 
 
 
-	// User lives
-	var showLives = document.getElementById("mylives");
 	// Show lives
+	var showLives = document.getElementById("mylives");
 	comments = function () {
 	showLives.innerHTML = "You have " + lives + " lives";
 	if (lives < 1) {
