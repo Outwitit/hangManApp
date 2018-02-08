@@ -19,7 +19,7 @@ body{
 	transform: rotate(-15deg);
 	margin-top: -30px;
 	text-decoration: underline;
-	 text-shadow: 2px 4px limegreen;
+	text-shadow: 2px 4px limegreen;
 }
 
 .pinkText{
@@ -32,10 +32,11 @@ body{
 	border-top: 10px dotted white;
 	border-left: 10px dotted white;
 	border-right: 10px dotted white;
-	height: 500px;
+	border-bottom: 10px dotted white;
+	height: 530px;
 	width: 1000px;
 	background-color: black;
-	margin-top: 100px;
+	margin-top: 5%;
 
 
 }
