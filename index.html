@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Hangman Game</title>
+    <link href="https://s9.postimg.org/refzbciz3/Hangman.jpg" alt="hangman logo">
+    <link rel="shortcut icon"  href="https://s9.postimg.org/c6zzqggof/man.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="style.css">
-
 </head> 
 <body>
   <header>
     <h1 class="headerText">HANGMAN</h1>
     <h2 class="subText">Let's do this</h2>
   </header>
-    <div class="container">
-      <div class="row rowLeft">
-        <div class="col-sm colLeft">
-        
-        </div>
-      </div>
-<!--        <img class="boardGame" src="https://images-na.ssl-images-amazon.com/images/I/81CgKjEmruL._SX522_.jpg">-->
+  <div class="container">
+    <div class="row rowLeft">
+      <div class="col-sm colLeft"> </div>
+    </div>
 
-<!-- STICK FIGURE HERE -->
-    
+<!-- STICK FIGURE HERE -->    
     <canvas id="stickman"></canvas>
 
 
@@ -32,23 +29,24 @@
         <div class="col-sm colRight">
           <h3 class="pressAnyKey">Press any key to start</h3>
           <hr>
-          <h3>Wins : </h3>
-          <hr>
-          <h3 class="dashes"> - - - - - </h3>
-          <h3 class="dashes"> - - - </h3>
-          <h3 class="dashes"> - - - </h3>
-          <h3 class="dashes"> - - - </h3>
+          <br>          
+          <h3 class="dashes"> _ _ _ _ _ </h3>
+          <h3 class="dashes"> _ _ _ </h3>
+          <h3 class="dashes"> _ _ _ </h3>
+          <h3 class="dashes"> _ _ _ </h3>
           <h3>Number of Guesses Remaining :</h3>
+          <hr>
           <!-- <h3> guessCount </h3> -->
             <br>
             <p id="mylives"></p>
             <br>
           <!-- <h3> guessCount </h3> -->
           <h3>Letters Already Guessed : </h3>
+          <hr>
           <!-- <h3> alreadyGuessed</h3> -->
            <h3> placeholder</h3>
           <!-- <h3> alreadyGuessed</h3> -->
-          <button id="reset">Play again</button>
+          <!-- <button id="reset">Play again</button> -->
         </div>
         </div>
       </div>
