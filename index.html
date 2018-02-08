@@ -28,23 +28,28 @@
         <div class="col-sm colRight">
           <h3 class="pressAnyKey">Press any key to start !</h3>
           <hr>
-          <br>          
-          <h3 class="dashes"> _ _ _ _ _ </h3>
-          <h3 class="dashes"> _ _ _ </h3>
-          <h3 class="dashes"> _ _ _ </h3>
-          <h3 class="dashes"> _ _ _ </h3>
-          <h3 class="pinkText">Number of Guesses Remaining :</h3>
+           <h3><span id="userText"></span> </h3>
+          <br> 
+          <h3 class="dashes hangmanPhrase">  </h3>         
+          <h3 class="dashes underlines"> _ _ _ _ _</h3>
+          <h3 class="dashes hangmanPhrase">  </h3>  
+          <h3 class="dashes underlines"> _ _ _ </h3>
+          <h3 class="dashes hangmanPhrase">  </h3>  
+          <h3 class="dashes underlines"> _ _ _ </h3>
+          <h3 class="dashes hangmanPhrase">  </h3>  
+          <h3 class="dashes underlines"> _ _ _</h3>
+          <h3 id="myLives" class="pinkText">Number of Guesses Remaining :</h3>
           <hr>
           <!-- guessesRemaining-->
           <h5> </h5>
             <br>
-            <p id="mylives"></p>
+            <p id="mylives">  </p>
             <br>
           <!-- <h3> guessCount </h3> -->
           <h3 class="blueText">Letters Already Guessed : </h3>
           <hr>
           <!-- alreadyGuessed-->
-           <h5> </h5>
+           <h5 id="guessedLetters"> </h5>
           <!-- <button id="reset">Play again</button> -->
         </div>
         </div>

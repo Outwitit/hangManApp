@@ -41,17 +41,12 @@ body{
 
 }
 
+#userText{
+  color: pink;
+}
 
 
 
-/*.boardGame{
-	height: 40%;
-	width: 25%;
-	margin-left: 120px;
-	margin-top: 40px;
-
-
-}*/
 
 canvas{
   color: white;
@@ -89,12 +84,33 @@ canvas{
 	font-size: 20px;
 }
 
+.hangmanPhrase{
+  color: lightgreen;
+}
+
 hr{
 	background-color: white;
 	width: 50%;
 	margin-top: -2%;
 	background-color: silver;
 }
+
+
+#guessedLetters{
+  color: red;
+  font-family: arial;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .pressAnyKey{
