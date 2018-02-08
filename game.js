@@ -29,8 +29,7 @@ window.onload = function(){
       drawArray[drawMe]();
     }
     // Hangman
-  canvas =  function(){
-
+  	canvas =  function(){
     myStickman = document.getElementById("stickman");
     context = myStickman.getContext('2d');
     context.beginPath();
@@ -46,8 +45,7 @@ window.onload = function(){
       context.stroke();
     }
     
-  draw = function(pathFromx, pathFromy, pathTox, pathToy) {
-    
+  	draw = function(pathFromx, pathFromy, pathTox, pathToy) {
     context.moveTo(pathFromx, pathFromy);
     context.lineTo(pathTox, pathToy);
     context.stroke(); 
@@ -92,7 +90,7 @@ window.onload = function(){
   var drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3, frame2, frame1]; 
 
 
-  
+
 
 
 
